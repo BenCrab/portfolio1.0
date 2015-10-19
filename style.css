@@ -12,7 +12,7 @@ body {
 	background: url("images/bg.svg") top left;
     content: "";
     display: block;
-    height: 360px;
+    height: 365px;
     position: absolute;
     width: 100%;
     z-index: -554433;
@@ -320,14 +320,7 @@ h3 {
 @media (min-width: 432px) {
 
 .background-top:before {
-    height: 320px;
-}
-}
-
-@media (min-width: 548px) {
-
-.background-top:before {
-    height: 320px;
+    height: 315px;
 }
 }
 
