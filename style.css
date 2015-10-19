@@ -295,58 +295,9 @@ footer > h2 {
     transition-property: box-shadow, transform;
 }
 
-/* Background Image Layout */
-/* -------------------------------- */
-
-@media (min-width: 387px) {
-
-.background-top:before {
-    height: 365px;
-}
-
-h2 {
-	font-size: 22px;
-}
-
-h3 {
-	font-size: 16px;
-}
-
-.button-link {
-	top: 20px;
-}
-}
-
-@media (min-width: 432px) {
-
-.background-top:before {
-    height: 315px;
-}
-}
-
-@media (min-width: 712px) {
-
-.background-top:before {
-    height: 270px;
-}
-}
-
-/* Grid Size & Layout */
-
-@media (min-width: 879px) {
-
-.work{
-	padding: 0px; 
+.job-info {
 	padding-top: 5px;
-}
-}
-
-@media (max-width: 699px) {
-
-.work-item{
-	width: 48%;
-    margin: 0 1% 2% 1%;
-}
+	margin-bottom: 30px;
 }
 
 
@@ -372,11 +323,12 @@ h3 {
 
 .experience, .education {
 	padding-left: 20px;
-	padding-bottom: 40px;
 }
 
 .education {
-	margin-top: 0px;
+	padding:20px;
+	background-color: #eee;
+	border-radius: 3px;;
 }
 
 .exp-item {
@@ -386,8 +338,14 @@ h3 {
 	margin-right: 20px;
 }
 
+.experience > .exp-item > img {
+	float: left;
+	margin-right: 20px;
+}
+
 .exp-item:last-of-type {
 	border-bottom: none;
+	padding-bottom: 20px;
 }
 
 .experience > .exp-item > ul > li {
@@ -400,14 +358,14 @@ h3 {
 
 .education-item {
 	overflow: hidden;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 30px;
+	margin-bottom: 20px;
 }
 
 .ed-info h3 {
 	font-weight: 600;
 	line-height: 0px;
-    padding-top: 25px;
+	padding-top: 14px;
 }
 
 .ed-info h4 {
@@ -439,11 +397,11 @@ h3 {
 }
 
 .ac-logo {
-	width: 250px;
+	height: 70px;
 }
 
 .riser-logo{
-	width: 130px;
+	height: 80px;
 }
 
 .waya {
@@ -457,8 +415,69 @@ h3 {
 }
 
 
+/* Background Image Layout */
+/* -------------------------------- */
 
+@media (min-width: 387px) {
 
+.background-top:before {
+    height: 365px;
+}
+
+h2 {
+	font-size: 22px;
+	margin-top: 0px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+.button-link {
+	top: 20px;
+}
+}
+
+@media (min-width: 432px) {
+
+.background-top:before {
+    height: 315px;
+}
+
+.education {
+	margin: 20px;
+	margin-bottom: 50px;
+}
+
+.ed-info {
+	padding-top: 5px;
+}
+}
+
+@media (min-width: 712px) {
+
+.background-top:before {
+    height: 270px;
+}
+}
+
+/* Grid Size & Layout */
+
+@media (min-width: 879px) {
+
+.work{
+	padding: 0px; 
+	padding-top: 5px;
+}
+}
+
+@media (max-width: 699px) {
+
+.work-item{
+	width: 48%;
+    margin: 0 1% 2% 1%;
+}
+}
 
 
 
