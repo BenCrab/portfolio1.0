@@ -12,7 +12,7 @@ body {
 	background: url("images/bg.svg") top left;
     content: "";
     display: block;
-    height: 365px;
+    height: 410px;
     position: absolute;
     width: 100%;
     z-index: -554433;
@@ -36,11 +36,12 @@ body {
 /*------------------------------------*/
 
 h1 {
-	font-size: 34px;
+	font-size: 30px;
 	font-weight: 400;
 	padding: 0px 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	max-width: 550px;
 }
 
 h2 {
@@ -444,7 +445,11 @@ h3 {
 @media (min-width: 432px) {
 
 .background-top:before {
-    height: 365px;
+    height: 315px;
+}
+
+h1 {
+	font-size: 34px;
 }
 
 .education {
