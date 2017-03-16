@@ -8,11 +8,11 @@ body {
 	min-width: 320px;
 }
 
-.background-top:before {
+.background-top {
 	background: url("images/bg.svg") top left;
     content: "";
     display: block;
-    height: 410px;
+    height: 360px;
     position: absolute;
     width: 100%;
     z-index: -554433;
@@ -41,7 +41,7 @@ h1 {
 	padding: 0px 20px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	max-width: 550px;
+	max-width: 830px;
 }
 
 h2 {
@@ -309,6 +309,10 @@ footer > h2 {
 /* Resume CSS */
 /* -------------------------------- */
 
+.experience {
+	padding-top: 330px;
+}
+
 .experience > .exp-item h3 {
 	font-size: 16px;
 	font-weight: 600;
@@ -423,11 +427,7 @@ footer > h2 {
 /* Background Image Layout */
 /* -------------------------------- */
 
-@media (min-width: 387px) {
-
-.background-top:before {
-    height: 405px;
-}
+@media (min-width: 335px) {
 
 h2 {
 	font-size: 22px;
@@ -444,16 +444,16 @@ h3 {
 
 @media (min-width: 432px) {
 
-.background-top:before {
-    height: 315px;
-}
-
-h1 {
-	font-size: 34px;
-}
-
 .education {
 	margin-bottom: 60px;
+}
+
+.background-top {
+	height: 330px;
+}
+
+.experience {
+	padding-top: 280px;
 }
 
 .ed-info {
@@ -461,10 +461,18 @@ h1 {
 }
 }
 
-@media (min-width: 712px) {
+@media (min-width: 650px) {
 
-.background-top:before {
-    height: 320px;
+.background-top {
+	height: 340px;
+}
+
+h1 {
+	font-size: 34px;
+}
+
+.experience {
+	padding-top: 330px;
 }
 }
 
