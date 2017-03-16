@@ -425,7 +425,7 @@ footer > h2 {
 @media (min-width: 387px) {
 
 .background-top:before {
-    height: 365px;
+    height: 405px;
 }
 
 h2 {
@@ -444,7 +444,7 @@ h3 {
 @media (min-width: 432px) {
 
 .background-top:before {
-    height: 315px;
+    height: 365px;
 }
 
 .education {
@@ -460,7 +460,7 @@ h3 {
 @media (min-width: 712px) {
 
 .background-top:before {
-    height: 270px;
+    height: 320px;
 }
 }
 
