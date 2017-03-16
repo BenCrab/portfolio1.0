@@ -16,6 +16,11 @@ body {
     position: absolute;
     width: 100%;
     z-index: -554433;
+	border-bottom: 3px solid #006cf3;
+}
+
+.background-bottom {
+	border-top: 3px solid #006cf3;
 }
 
 .background-bottom:before {
