@@ -22,7 +22,7 @@ body {
 	background: url("images/bg.svg") top left repeat;
     content: "";
     display: block;
-    height: 420px;
+    height: 620px;
     position: absolute;
     width: 100%;
     z-index: -554433;
@@ -132,7 +132,7 @@ header {
 
 .logo {
 	width: 60px;
-	margin: 23px 0px 0px 23px; 
+	margin: 23px 0px 0px 23px;
 	border-radius: 3px;
 }
 
@@ -207,7 +207,7 @@ header > nav > ul > li {
      transition: all .2s ease-in-out;
 }
 
-.button-link{    
+.button-link{
     float: left;
     padding: 11px 0px;
     list-style: none;
@@ -386,7 +386,7 @@ footer > h2 {
 	margin-bottom: 10px;
 }
 
-.byu-logo {	
+.byu-logo {
 	width: 80px;
 	height: 80px;
 }
@@ -469,7 +469,7 @@ h3 {
 @media (min-width: 879px) {
 
 .work{
-	padding: 0px; 
+	padding: 0px;
 	padding-top: 5px;
 }
 }
@@ -481,34 +481,3 @@ h3 {
     margin: 0 1% 2% 1%;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
