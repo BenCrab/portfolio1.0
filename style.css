@@ -175,8 +175,8 @@ a.underline {
   text-decoration: underline;
 }
 .red {
-  color: #FF5252;
-  fill: #FF5252;
+  color: #006cf3;
+  fill: #006cf3;
 }
 .wrapper {
   max-width: 1008px;
@@ -198,7 +198,7 @@ header#main-header {
   }
 }
 header#main-header .box {
-  border: 2px solid #FF5252;
+  border: 2px solid #006cf3;
   position: absolute;
   width: 65%;
   height: 100%;
@@ -235,7 +235,7 @@ header#main-header .box {
   }
 }
 .social-icons svg {
-  fill: #FF5252;
+  fill: #006cf3;
   margin-right: 16px;
   margin-bottom: 8px;
 }
@@ -278,7 +278,7 @@ header#main-header .box {
   flex: 0 0 auto;
 }
 .projects svg path {
-  fill: #FF5252;
+  fill: #006cf3;
 }
 .projects ul.flex-4 {
   display: flex;
