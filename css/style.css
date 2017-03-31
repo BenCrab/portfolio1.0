@@ -1,0 +1,416 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body {
+  background: #f0f0f0;
+  font-family: 'Libre Franklin', Franklin Gothic, Helvetica, sans-serif;
+  color: #212121;
+  line-height: 1.5;
+}
+h1 {
+  padding: 24px 0 24px 32px;
+}
+@media all and (max-width: 449px) {
+  h1 {
+    padding: 16px 0 16px 20px;
+  }
+}
+h1 > div {
+  margin-top: 12px;
+  background: #f0f0f0;
+  padding-top: 8px;
+}
+h1,
+h2 {
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+h3 {
+  font-size: 18px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a.underline {
+  text-decoration: underline;
+}
+.red {
+  color: #FF5252;
+  fill: #FF5252;
+}
+.wrapper {
+  max-width: 1008px;
+  padding: 0 24px;
+  margin: auto;
+}
+@media all and (max-width: 449px) {
+  .wrapper {
+    padding: 0 16px;
+  }
+}
+header#main-header {
+  margin: 72px 0;
+  position: relative;
+}
+@media all and (max-width: 449px) {
+  header#main-header {
+    margin-top: 16px;
+  }
+}
+header#main-header .box {
+  border: 2px solid #FF5252;
+  position: absolute;
+  width: 65%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+@media all and (max-width: 449px) {
+  header#main-header .box {
+    width: 75%;
+  }
+}
+.social-icons {
+  margin: 0 0 16px 30px;
+  position: absolute;
+  top: 26px;
+  left: 162px;
+  padding-right: 35%;
+}
+@media all and (max-width: 899px) {
+  .social-icons {
+    position: initial;
+  }
+}
+@media all and (max-width: 799px) {
+  .social-icons {
+    width: 200px;
+    padding: 0;
+  }
+}
+@media all and (max-width: 449px) {
+  .social-icons {
+    margin-left: 20px;
+  }
+}
+.social-icons svg {
+  fill: #FF5252;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.projects {
+  width: 100%;
+  margin-bottom: 72px;
+}
+.projects h2 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 8px;
+}
+.projects header {
+  width: 30%;
+  border-bottom: 2px solid #212121;
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+@media all and (max-width: 799px) {
+  .projects header {
+    width: 65%;
+  }
+}
+@media all and (max-width: 449px) {
+  .projects header {
+    width: 75%;
+  }
+}
+.projects header a:hover {
+  text-decoration: none;
+}
+.projects svg {
+  vertical-align: middle;
+  flex: 0 0 auto;
+}
+.projects svg path {
+  fill: #FF5252;
+}
+.projects ul.flex-4 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+@media all and (max-width: 449px) {
+  .projects ul.flex-4 {
+    margin: 0 -10px;
+  }
+}
+.projects ul.flex-4 li {
+  width: 25%;
+  flex: 0 1 auto;
+  padding: 0 16px;
+  margin-bottom: 12px;
+}
+@media all and (max-width: 799px) {
+  .projects ul.flex-4 li {
+    width: 50%;
+  }
+}
+@media all and (max-width: 449px) {
+  .projects ul.flex-4 li {
+    padding: 0 10px;
+  }
+}
+.projects ul.flex-4 h3 {
+  height: 54px;
+  overflow: hidden;
+}
+.projects ul .image-container {
+  background: #999;
+  margin-bottom: 12px;
+  position: relative;
+  padding-bottom: 78%;
+  overflow: hidden;
+}
+.projects ul .image-container img {
+  position: absolute;
+  width: 100%;
+  transition: all .2s;
+}
+.projects ul.placeholder li {
+  flex-wrap: wrap;
+}
+.projects ul.placeholder .image-container {
+  padding-bottom: 78%;
+}
+.projects ul.placeholder .image-container,
+.projects ul.placeholder .text-block {
+  animation: pulse 1.5s infinite;
+}
+.projects ul.dribbble .image-container {
+  padding-bottom: 75%;
+}
+.projects ul.ng-hide {
+  display: none;
+}
+.projects.dribbble .image-container {
+  padding-bottom: 75%;
+}
+.projects.medium li,
+.projects.accomplishments li {
+  margin-bottom: 16px;
+  display: flex;
+}
+.projects.medium li svg,
+.projects.accomplishments li svg {
+  margin-right: 10px;
+  min-width: 24px;
+}
+.projects.experience h3 {
+  font-weight: 600;
+}
+.projects.experience li {
+  margin-bottom: 16px;
+}
+.projects.half {
+  width: 50%;
+  flex: 1 0 auto;
+}
+.projects.half:first-of-type {
+  padding-right: 16px;
+}
+.projects.half:last-of-type {
+  padding-left: 16px;
+}
+.projects.half header {
+  width: 65%;
+}
+@media all and (max-width: 449px) {
+  .projects.half header {
+    width: 75%;
+  }
+}
+@media all and (max-width: 799px) {
+  .projects.half {
+    width: 100%;
+  }
+  .projects.half:first-of-type,
+  .projects.half:last-of-type {
+    padding: 0;
+  }
+}
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 36px;
+}
+.text-block {
+  height: 12px;
+  background: #999;
+  margin: 6px 0 12px;
+  width: 100%;
+}
+.text-block.short {
+  width: 75%;
+}
+.screen-reader {
+  position: absolute;
+  text-indent: -9999px;
+}
+@keyframes pulse {
+  0% {
+    background: #ddd;
+  }
+  50% {
+    background: #bbb;
+  }
+  100% {
+    background: #ddd;
+  }
+}
