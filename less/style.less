@@ -1,37 +1,37 @@
 @import "reset.less";
 
-@font-stack: 'Libre Franklin', Franklin Gothic, Helvetica, sans-serif;
+@font-stack: 'Nunito', Helvetica, sans-serif;
 
-@gray: #f0f0f0;
 @accent: #006cf3;
-@black: #212121;
+@darkgrey: #4c4c4c;
 
 @break-point-md: 799px;
 @break-point-sm: 449px;
 
 body {
-	background: @gray;
 	font-family: @font-stack;
-	color: @black;
+	color: @darkgrey;
 	line-height: 1.5;
 }
 
 h1 {
-	padding: 24px 0 24px 32px;
+	padding: 24px 0 24px 0px;
 	@media all and (max-width: @break-point-sm) {
-		padding: 16px 0 16px 20px;
+		padding: 16px 0 16px 0px;
 	}
 	> div {
 		margin-top: 12px;
-		background: @gray;
 		padding-top: 8px;
 	}
 }
 
 h1, h2 {
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 18px;
 	letter-spacing: 1px;
+	@media all and (min-width: @break-point-sm) {
+		font-size: 24px;
+	}
 }
 
 h3 {
@@ -64,11 +64,10 @@ a {
 }
 
 header#main-header {
-	margin: 72px 0;
+	margin: 40px 0;
 	position: relative;
-	@media all and (max-width: @break-point-sm) {
-		margin-top: 16px;
-	}
+	height: 250px;
+	border-bottom: solid 4px @accent;
 	.box {
 		border: 2px solid @accent;
 		position: absolute;
@@ -83,21 +82,8 @@ header#main-header {
 	}
 }
 .social-icons {
-	margin: 0 0 16px 30px;
-	position: absolute;
-	top: 26px;
-	left: 162px;
-	padding-right: 35%;
-	@media all and (max-width: 899px) {
-		position: initial;
-	}
-	@media all and (max-width: @break-point-md) {
-		width: 200px;
-		padding: 0;
-	}
-	@media all and (max-width: @break-point-sm) {
-		margin-left: 20px;
-	}
+	padding: 40px 0;
+
 	svg {
 		fill: @accent;
 		margin-right: 16px;
@@ -116,32 +102,33 @@ header#main-header {
 	h2 {
 		display: inline-block;
 		vertical-align: middle;
-		margin: 0 8px;
-
+		margin: 0 12px;
 	}
 	header {
-		width: 30%;
-		border-bottom: 2px solid @black;
-		margin-bottom: 48px;
 		padding-bottom: 24px;
-		display: flex;
-		flex-wrap: nowrap;
-		@media all and (max-width: @break-point-md) {
-			width: 65%;
+		p {
+			padding-top: 15px;
+			max-width: 280px;
 		}
-		@media all and (max-width: @break-point-sm) {
-			width: 75%;
-		}
-		a:hover {
-			text-decoration: none;
+		.header-link {
+			width: 30%;
+			display: flex;
+			flex-wrap: nowrap;
+			align-items: center;
+			@media all and (max-width: @break-point-md) {
+				width: 65%;
+			}
+			@media all and (max-width: @break-point-sm) {
+				width: 75%;
+			}
+			a:hover {
+				text-decoration: none;
+			}
 		}
 	}
 	svg {
 		vertical-align: middle;
 		flex: 0 0 auto;
-		path {
-			fill: @accent;
-		}
 	}
 	ul {
 		&.flex-4 {
@@ -251,10 +238,14 @@ header#main-header {
 }
 
 footer {
-	text-align: center;
-	font-size: 14px;
-	color: #999;
 	margin-bottom: 36px;
+	border-top: solid 4px @accent;
+	padding: 40px 0px;
+
+	p {
+		max-width: 280px;
+	    padding-top: 15px;
+	}
 }
 
 .text-block {

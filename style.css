@@ -137,29 +137,33 @@ table {
   clear: both;
 }
 body {
-  background: #f0f0f0;
-  font-family: 'Libre Franklin', Franklin Gothic, Helvetica, sans-serif;
-  color: #212121;
+  font-family: 'Nunito', Helvetica, sans-serif;
+  color: #4c4c4c;
   line-height: 1.5;
 }
 h1 {
-  padding: 24px 0 24px 32px;
+  padding: 24px 0 24px 0px;
 }
 @media all and (max-width: 449px) {
   h1 {
-    padding: 16px 0 16px 20px;
+    padding: 16px 0 16px 0px;
   }
 }
 h1 > div {
   margin-top: 12px;
-  background: #f0f0f0;
   padding-top: 8px;
 }
 h1,
 h2 {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 1px;
+}
+@media all and (min-width: 449px) {
+  h1,
+  h2 {
+    font-size: 24px;
+  }
 }
 h3 {
   font-size: 18px;
@@ -189,13 +193,10 @@ a.underline {
   }
 }
 header#main-header {
-  margin: 72px 0;
+  margin: 40px 0;
   position: relative;
-}
-@media all and (max-width: 449px) {
-  header#main-header {
-    margin-top: 16px;
-  }
+  height: 250px;
+  border-bottom: solid 4px #006cf3;
 }
 header#main-header .box {
   border: 2px solid #006cf3;
@@ -212,27 +213,7 @@ header#main-header .box {
   }
 }
 .social-icons {
-  margin: 0 0 16px 30px;
-  position: absolute;
-  top: 26px;
-  left: 162px;
-  padding-right: 35%;
-}
-@media all and (max-width: 899px) {
-  .social-icons {
-    position: initial;
-  }
-}
-@media all and (max-width: 799px) {
-  .social-icons {
-    width: 200px;
-    padding: 0;
-  }
-}
-@media all and (max-width: 449px) {
-  .social-icons {
-    margin-left: 20px;
-  }
+  padding: 40px 0;
 }
 .social-icons svg {
   fill: #006cf3;
@@ -250,35 +231,37 @@ header#main-header .box {
 .projects h2 {
   display: inline-block;
   vertical-align: middle;
-  margin: 0 8px;
+  margin: 0 12px;
 }
 .projects header {
-  width: 30%;
-  border-bottom: 2px solid #212121;
-  margin-bottom: 48px;
   padding-bottom: 24px;
+}
+.projects header p {
+  padding-top: 15px;
+  max-width: 280px;
+}
+.projects header .header-link {
+  width: 30%;
   display: flex;
   flex-wrap: nowrap;
+  align-items: center;
 }
 @media all and (max-width: 799px) {
-  .projects header {
+  .projects header .header-link {
     width: 65%;
   }
 }
 @media all and (max-width: 449px) {
-  .projects header {
+  .projects header .header-link {
     width: 75%;
   }
 }
-.projects header a:hover {
+.projects header .header-link a:hover {
   text-decoration: none;
 }
 .projects svg {
   vertical-align: middle;
   flex: 0 0 auto;
-}
-.projects svg path {
-  fill: #006cf3;
 }
 .projects ul.flex-4 {
   display: flex;
@@ -385,10 +368,13 @@ header#main-header .box {
   }
 }
 footer {
-  text-align: center;
-  font-size: 14px;
-  color: #999;
   margin-bottom: 36px;
+  border-top: solid 4px #006cf3;
+  padding: 40px 0px;
+}
+footer p {
+  max-width: 280px;
+  padding-top: 15px;
 }
 .text-block {
   height: 12px;
