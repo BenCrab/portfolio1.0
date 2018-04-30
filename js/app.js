@@ -7,13 +7,6 @@ app.controller('portfolioCtrl', function($scope, portfolioFactory) {
   $scope.behanceLoaded = false;
   $scope.dribbbleLoaded = false;
 
-  portfolioFactory.getBehance().then(function onFulfilled(data){
-    $scope.behance = data;
-    $scope.behanceLoaded = true;
-  }).catch(function onRejected() {
-    console.log('Error in Behance Factory');
-  });
-
   portfolioFactory.getDribbble().then(function onFulfilled(data){
     $scope.dribbble = data;
     $scope.dribbbleLoaded = true;
