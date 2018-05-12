@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-li</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPad-Portrait" transform="translate(-216.000000, -3042.000000)" fill="#27C2E1" fill-rule="nonzero">
+            <path d="M234,3060 L230,3060 L230,3053.25 C230,3052.19 228.81,3051.31 227.75,3051.31 C226.69,3051.31 226,3052.19 226,3053.25 L226,3060 L222,3060 L222,3048 L226,3048 L226,3050 C226.66,3048.93 228.36,3048.24 229.5,3048.24 C232,3048.24 234,3050.28 234,3052.75 L234,3060 Z M220,3060 L216,3060 L216,3048 L220,3048 L220,3060 Z M218,3042 C219.104569,3042 220,3042.89543 220,3044 C220,3045.10457 219.104569,3046 218,3046 C216.895431,3046 216,3045.10457 216,3044 C216,3042.89543 216.895431,3042 218,3042 Z" id="icon-li"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-email</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPad-Portrait" transform="translate(-131.000000, -3044.000000)" fill="#27C2E1" fill-rule="nonzero">
+            <path d="M149,3048 L141,3053 L133,3048 L133,3046 L141,3051 L149,3046 L149,3048 Z M149,3044 L133,3044 C131.89,3044 131,3044.89 131,3046 L131,3058 C131,3059.10457 131.895431,3060 133,3060 L149,3060 C150.104569,3060 151,3059.10457 151,3058 L151,3046 C151,3044.89 150.1,3044 149,3044 Z" id="icon-email"></path>
+        </g>
+    </g>
+</svg>
