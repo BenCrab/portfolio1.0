@@ -418,7 +418,7 @@ header.project-head {
 
         @media screen and (min-width: 850px) {
             display: block;
-            height: 1184rem;
+            height: 96.5%;
             margin-left: -5.75rem;
             z-index: -5;
             top: 17rem;
@@ -594,6 +594,12 @@ header.project-head {
                     margin-top: 1rem;
                     border-bottom: 4px solid $teal;
                     font-weight: 400;
+                    transition: transform .2s;
+
+                    &.right-bounce:hover {
+                        transform: translate(.5rem, 0);
+                        -webkit-transform: translate(.5rem, 0);
+                    }
 
                     img {
                         padding-left: 1rem;
@@ -626,6 +632,11 @@ header.project-head {
                         align-items: center;
                         justify-content: center;
                         box-shadow: 0 3px 6px 0 #9ae7f1;
+                        transition: bottom .2s;
+
+                        &:hover {
+                            bottom: 1.5rem;
+                        }
                     }
                 }
             }

@@ -403,7 +403,7 @@ header.project-head {
     @media screen and (min-width: 850px) {
       .project-body .side-line {
         display: block;
-        height: 1184rem;
+        height: 96.5%;
         margin-left: -5.75rem;
         z-index: -5;
         top: 17rem;
@@ -504,7 +504,11 @@ header.project-head {
       color: #27C2E1;
       margin-top: 1rem;
       border-bottom: 4px solid #27C2E1;
-      font-weight: 400; }
+      font-weight: 400;
+      transition: transform .2s; }
+      .process .project-steps .step .sub-step .video-demo.right-bounce:hover {
+        transform: translate(0.5rem, 0);
+        -webkit-transform: translate(0.5rem, 0); }
       .process .project-steps .step .sub-step .video-demo img {
         padding-left: 1rem;
         height: 2rem; }
@@ -527,7 +531,10 @@ header.project-head {
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        box-shadow: 0 3px 6px 0 #9ae7f1; }
+        box-shadow: 0 3px 6px 0 #9ae7f1;
+        transition: bottom .2s; }
+        .process .project-steps .step .sub-step .caption-image .expand-icon:hover {
+          bottom: 1.5rem; }
   .process .project-steps .step .usability-testing {
     position: relative;
     margin: 3rem 0; }
