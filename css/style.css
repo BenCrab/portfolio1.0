@@ -537,7 +537,7 @@ header.project-head {
           bottom: 1.5rem; }
   .process .project-steps .step .usability-testing {
     position: relative;
-    margin: 3rem 0; }
+    margin: 4rem 0 3rem 0; }
     .process .project-steps .step .usability-testing .test-line {
       height: 18rem;
       position: absolute;
