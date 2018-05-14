@@ -203,7 +203,7 @@ header {
             font-weight: 400;
             transition: transform .2s;
 
-            &:nth-of-type(2), &:nth-of-type(3) {
+            &:nth-of-type(3) {
                 opacity: .5;
                 pointer-events: none;
             }
@@ -432,17 +432,25 @@ header.project-head {
 
         @media screen and (min-width: 850px) {
             display: block;
-            height: 1186rem;
+            height: 1163rem;
             margin-left: -5.75rem;
             z-index: -5;
-            top: 16rem;
+            top: 12rem;
             width: 0.5rem;
             background-image: linear-gradient( $bright-blue, $teal );
         }
     }
 
+    &.sos {
+        .side-line {
+            @media screen and (min-width: 850px) {
+                height: 1140rem;
+            }
+        }
+    }
+
     .main-block {
-        padding-top: 8rem;
+        padding-top: 4rem;
 
         h3.mistake, h3.aware {
             display: inline-flex;
@@ -482,10 +490,6 @@ header.project-head {
             &:nth-of-type(2) {
                 padding-top: 4rem;
             }
-        }
-
-        &:nth-of-type(1) {
-            padding-top: 4rem;
         }
 
         &.timeline {
