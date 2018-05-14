@@ -397,20 +397,18 @@ header.project-head {
         border: .5rem solid #fff;
         margin-left: -6.5rem;
         position: absolute; } }
-  .project-body .position-line {
-    position: relative; }
-    .project-body .position-line .side-line {
-      position: absolute;
-      display: none; }
-      @media screen and (min-width: 850px) {
-        .project-body .position-line .side-line {
-          display: block;
-          height: 1186rem;
-          margin-left: -5.75rem;
-          z-index: -5;
-          top: 16rem;
-          width: 0.5rem;
-          background-image: linear-gradient(#006CF3, #27C2E1); } }
+  .project-body .side-line {
+    position: absolute;
+    display: none; }
+    @media screen and (min-width: 850px) {
+      .project-body .side-line {
+        display: block;
+        height: 1186rem;
+        margin-left: -5.75rem;
+        z-index: -5;
+        top: 16rem;
+        width: 0.5rem;
+        background-image: linear-gradient(#006CF3, #27C2E1); } }
   .project-body .main-block {
     padding-top: 8rem; }
     .project-body .main-block h3.mistake, .project-body .main-block h3.aware {

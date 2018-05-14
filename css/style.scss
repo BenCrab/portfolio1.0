@@ -411,23 +411,19 @@ header.project-head {
             }
         }
     }
+    
+    .side-line {
+        position: absolute;
+        display: none;
 
-    .position-line {
-        position: relative;
-           
-        .side-line {
-            position: absolute;
-            display: none;
-
-            @media screen and (min-width: 850px) {
-                display: block;
-                height: 1186rem;
-                margin-left: -5.75rem;
-                z-index: -5;
-                top: 16rem;
-                width: 0.5rem;
-                background-image: linear-gradient( $bright-blue, $teal );
-            }
+        @media screen and (min-width: 850px) {
+            display: block;
+            height: 1186rem;
+            margin-left: -5.75rem;
+            z-index: -5;
+            top: 16rem;
+            width: 0.5rem;
+            background-image: linear-gradient( $bright-blue, $teal );
         }
     }
 
