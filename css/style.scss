@@ -395,8 +395,6 @@ header.project-head {
     }
 
     h1, h2:not(.step-up) {
-        display: inline-flex;
-        align-items: center;
 
         @media screen and (min-width: 850px) {
             &:before {
