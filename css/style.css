@@ -385,7 +385,7 @@ header.project-head {
   position: relative;
   color: #14355E; }
   @media screen and (min-width: 850px) {
-    .project-body h1:before, .project-body h2:not(.step-up):before {
+    .project-body h1:before {
       content: '';
       background-color: #007cf5;
       height: 2rem;
@@ -395,6 +395,17 @@ header.project-head {
       margin-left: -6.5rem;
       position: absolute;
       margin-top: 2rem; } }
+  @media screen and (min-width: 850px) {
+    .project-body h2:not(.step-up):before {
+      content: '';
+      background-color: #007cf5;
+      height: 2rem;
+      width: 2rem;
+      border-radius: 10rem;
+      border: .5rem solid #fff;
+      margin-left: -6.5rem;
+      position: absolute;
+      margin-top: 1rem; } }
   .project-body .side-line {
     position: absolute;
     display: none; }

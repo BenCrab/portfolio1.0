@@ -394,8 +394,7 @@ header.project-head {
 
     }
 
-    h1, h2:not(.step-up) {
-
+    h1 {
         @media screen and (min-width: 850px) {
             &:before {
                 content: '';
@@ -407,6 +406,22 @@ header.project-head {
                 margin-left: -6.5rem;
                 position: absolute;
                 margin-top: 2rem;
+            }
+        }
+    }
+
+    h2:not(.step-up) {
+        @media screen and (min-width: 850px) {
+            &:before {
+                content: '';
+                background-color: #007cf5;
+                height: 2rem;
+                width: 2rem;
+                border-radius: 10rem;
+                border: .5rem solid #fff;
+                margin-left: -6.5rem;
+                position: absolute;
+                margin-top: 1rem;
             }
         }
     }
