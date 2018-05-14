@@ -403,10 +403,10 @@ header.project-head {
     @media screen and (min-width: 850px) {
       .project-body .side-line {
         display: block;
-        height: 1184rem;
+        height: 1186rem;
         margin-left: -5.75rem;
         z-index: -5;
-        top: 17rem;
+        top: 16rem;
         width: 0.5rem;
         background-image: linear-gradient(#006CF3, #27C2E1); } }
   .project-body .main-block {
