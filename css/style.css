@@ -412,7 +412,7 @@ header.project-head {
     @media screen and (min-width: 850px) {
       .project-body .side-line {
         display: block;
-        height: 1163rem;
+        height: 1181rem;
         margin-left: -5.75rem;
         z-index: -5;
         top: 12rem;
@@ -420,7 +420,13 @@ header.project-head {
         background-image: linear-gradient(#006CF3, #27C2E1); } }
   @media screen and (min-width: 850px) {
     .project-body.sos .side-line {
-      height: 1143rem; } }
+      height: 1154rem; } }
+  @media screen and (min-width: 850px) {
+    .project-body.ppp .side-line {
+      height: 637rem; } }
+  @media screen and (min-width: 850px) {
+    .project-body.sc .side-line {
+      height: 591rem; } }
   .project-body .main-block {
     padding-top: 4rem; }
     .project-body .main-block h3.mistake, .project-body .main-block h3.aware {
@@ -469,6 +475,8 @@ header.project-head {
         font-size: 2.5rem;
         font-weight: 300;
         line-height: 3.5rem; }
+        .project-body .main-block.success ol li span {
+          font-weight: 600; }
     .project-body .main-block.success ul {
       padding-top: 1rem; }
       .project-body .main-block.success ul li {
@@ -490,12 +498,15 @@ header.project-head {
   padding-top: 8rem; }
   .process .project-steps .step .sub-step {
     padding-top: 8rem; }
-    .process .project-steps .step .sub-step h4 {
+    .process .project-steps .step .sub-step h4:not(.sc) {
       padding-top: 4rem; }
     .process .project-steps .step .sub-step p {
       padding-top: 1rem; }
       .process .project-steps .step .sub-step p:first-of-type {
         padding-top: 2rem; }
+      .process .project-steps .step .sub-step p a {
+        color: #27C2E1;
+        text-decoration: none; }
     .process .project-steps .step .sub-step span {
       font-weight: 700; }
     .process .project-steps .step .sub-step h2 {

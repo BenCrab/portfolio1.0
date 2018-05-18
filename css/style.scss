@@ -432,7 +432,7 @@ header.project-head {
 
         @media screen and (min-width: 850px) {
             display: block;
-            height: 1163rem;
+            height: 1181rem;
             margin-left: -5.75rem;
             z-index: -5;
             top: 12rem;
@@ -444,7 +444,23 @@ header.project-head {
     &.sos {
         .side-line {
             @media screen and (min-width: 850px) {
-                height: 1143rem;
+                height: 1154rem;
+            }
+        }
+    }
+
+    &.ppp {
+        .side-line {
+            @media screen and (min-width: 850px) {
+                height: 637rem;
+            }
+        }
+    }
+
+    &.sc {
+        .side-line {
+            @media screen and (min-width: 850px) {
+                height: 591rem;
             }
         }
     }
@@ -530,6 +546,11 @@ header.project-head {
                     font-size: 2.5rem;
                     font-weight: 300;
                     line-height: 3.5rem;
+
+                    span {
+                        font-weight: 600;
+                    }
+
                 }
             }
 
@@ -575,7 +596,7 @@ header.project-head {
             .sub-step {
                 padding-top: 8rem;
 
-                h4 {
+                h4:not(.sc) {
                     padding-top: 4rem;
                 }
 
@@ -584,6 +605,11 @@ header.project-head {
 
                     &:first-of-type {
                         padding-top: 2rem;
+                    }
+
+                    a {
+                        color: #27C2E1;
+                        text-decoration: none;
                     }
                 }
 
