@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project by Ben Crabtree</title>
+        <!-- Metadata -->
+        <meta name="description" content="UX project ">
+        <meta name="ROBOTS" content="INDEX, FOLLOW">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Fonts, CSS, & favicon -->
+        <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/png" sizes="32x32" href="http://www.bencrabtree.co/img/favicon.png">
+        <!-- JS -->
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="js/app.js"></script>
+    </head>
+    <body>
+        <header class="project-head">
+            <div class="wrapper top" id="scroll-top">
+                <img src="img/projects.png" alt="background image for flair" class="slice">
+                <a class="button left-bounce" href="http://www.bencrabtree.co/index.html#project-anchor"><img src="img/arrow-left.svg" alt="left facing arrow"/>Back to All Projects</a>
+                <h3 class="project-type">ANCESTRY.COM PROJECT</h3>
+                <h1>Next Best Steps</h1>
+                <div class="two-column">
+                    <div class="column-1">
+                        <h3>PROJECT TEAM</h3>
+                        <ul>
+                            <li>5 Product Teams</li>
+                            <li>1 Lead Product Manager</li>
+                            <li>1 UX Designer</li>
+                            <li>1 Copy Writer</li>
+                            <li>1 Legal Rep</li>
+                            <li>The Ancestry Marketing Team</li>
+                        </ul>
+                    </div>
+                    <div class="column-2">
+                        <h3>MY ROLES</h3>
+                        <ul>
+                            <li>UX Design</li>
+                            <li>UX Research</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="process project-body sos">
+            <div class="wrapper">
+                <div class="side-line"></div>
+                <img src="img/process.png" alt="process background" class="slice">
+                <!-- Context -->
+                <div class="main-block context">
+                    <h1>Context</h1>
+                    <p>In early 2019, my team and I were asked to focus on improving the product onboarding experience for new Ancestry customers.</p>
+                </div>
+                <!-- Timeline -->
+                <div class="main-block timeline">
+                    <h1>Timeline</h1>
+                    <ul>
+                        <li><span>Jan 2019 – </span>Project kick-off</li>
+                        <li><span>Jan & Feb 2019 – </span>Gathering & Reviewing Existing Research</li>
+                        <li><span>Feb 2019 – </span>Concept Generation Based on Hypotheses & Data</li>
+                        <li><span>Mar 2019 – </span>Qual. Concept Testing</li>
+                        <li><span>April–Nov 2019 (Intermittent) – </span>Qual. & Quant. Testing (Cont.)</li>
+                        <li><span>Nov-Dec 2019 – </span>Quant. Testing</li>
+                        <li><span>Feb 2020 – </span>Released to 100% of free trialers without existing family trees.</li>
+                        <li><span>Total Elapsed Time:</span> ~11 months</li>
+                        <li><span>Actual Design & Research Time:</span> ~6 months</li>
+                        <li><span>Actual Dev Time:</span> ~2 months</li>
+                    </ul>
+                </div>
+                <div class="main-block aware-or-mistake">
+                    <h3 class="aware"></span>SO YOU’RE AWARE</h3>
+                    <p>This project was a massive undertaking that eventually involved the collaboration of 5 product teams, legal, copywriting, and the marketing departments.
+                </div>
+                <div class="main-block success">
+                    <h1>Success Metrics</h1>
+                    <h4>QUANTITATIVE</h4>
+                    <ol>
+                        <li>Increase bill-through rate for free trialers.</li>
+                        <li>Increase onboarding completion rate</li>
+                        <li>Reduce day-0 cancels.</li>
+                    </ol>
+                </div>
+
+                <div class="steps project-steps">
+                    <div class="step">
+                        <h2 class="step-up"><span class="number">1</span>Learn + Understand</h2>
+                        <p></p>
+                        <div class="two-column">
+                            <div class="column-1">
+                                <h3>ACTIVITIES</h3>
+                                <ul>
+                                    <li>Stakeholder interviews</li>
+                                    <li>Onboarding Customer Intent Survey Launch</li>
+                                    <li>Identification of project scope & audience based on data</li>
+                                    <li>User interviews</li>
+                                    <li>Existing research gathering</li>
+                                    <li>Documentation of existing pages & flows</li>
+                                    <li>Question, Assumption, & Hypothesis geneartion</li>
+                                </ul>
+                            </div>
+                            <div class="column-2">
+                                <h3>DELIVERABLES</h3>
+                                <ul>
+                                  <li>Stakeholder interview summary</li>
+                                  <li>Survey data summary</li>
+                                  <li>Summary of scope & audience for v1</li>
+                                  <li>Summary of existing research</li>
+                                  <li>Page & flow audit result summary</li>
+                                  <li>Summary of questions to answer.</li>
+                                  <li>Summary of assumptions & hypotheses to test</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="sub-step">
+                            <h2>User Roles</h2>
+                            <ol>
+                                <li>Material aquisition staff and student employees</li>
+                                <li>Subject librarians</li>
+                                <li>Non-faculty patrons</li>
+                                <li>Faculty patrons</li>
+                            </ol>
+                        </div>
+                        <div class="sub-step">
+                            <h2>Jobs-to-be-Done: Summary</h2>
+                            <p>For this project, I used the jobs-to-be-done framework to understand and design for meeting user needs and goals. There were several of jobs-to-be-done that I create for each user group.</p>
+
+                            <h4>FOR MATERIAL AQUISITION STAFF/STUDENT EMPLOYEES</h4>
+                            <p><span>When</span> an item order from faculty, or a item suggestion from non-faculty is submitted, <span>I want to</span> track the progress of that item through the various stages of the aquisition process, automatically request needed information from librarians, and notify the individual who submitted the request regarding it’s status in the system, <span>so I can</span> more quickly and easily manage requests, attain information from subject librarians regarding requests, and maintain better communication with the requester.</p>
+
+                            <h4>FOR LIBRARIANS</h4>
+                            <p><span>When</span> an item suggestion is assigned to me, <span>I want to</span> be able to view information about the item and quickly approve or deny the request, <span>so I can</span> reduce the amount of time I have to spend responding to emails.</p>
+
+                            <h4>FOR NON-FACULTY PATRONS</h4>
+                            <p><span>When</span> I submit an item purchase suggestion, <span>I want to</span> updated so that I know whether the item I requested has been approved for purchase, and when the item arrives at the library, <span>so I can</span> get access to it as quickly as possible.</p>
+
+                            <h4>FOR FACULTY PATRONS</h4>
+                            <p><span>When</span> I submit an item to be ordered—especially an order that needs to be expedited, <span>I want to</span> be updated so that I know when the item I requested has been ordered, and when the item arrives at the library, <span>so I can</span> use it for research or teaching as quickly as possible.</p>
+                        </div>
+
+                        <div class="sub-step">
+                            <h2>Whiteboarding</h2>
+                            <p>These are a few of the photos I took as I was seeking to understand the whole system and the jobs-to-be-done of each user role.</p>
+                            <div class="caption-image">
+                                <h4>PICTURES OF THE EARLY WHITEBOARD NOTES</h4>
+                                <img class="main" src="img/sos-whiteboarding.png" alt="whiteboard drawings">
+                                <a class="expand-icon bounce-up" href="http://www.bencrabtree.co/sos-whiteboarding.pdf">
+                                    <img src="img/icon-expand.svg" alt="expand icon">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="step">
+                        <h2 class="step-up"><span class="number">2</span>Design + Testing</h2>
+                        <p>With interviews and contextual inquires done, I moved on to designing, and prototyping an interface for material aquisitions staff and the librarians to manage orders/suggestions. I also wrote emails to be sent by the system to update faculty and non-faculty patrons of the status of their requests.</p>
+                        <div class="two-column">
+                            <div class="column-1">
+                                <h3>ACTIVITIES</h3>
+                                <ul>
+                                    <li>Diagramming new workflows</li>
+                                    <li>Wireframe mockup creation</li>
+                                    <li>Visual design mockup creation</li>
+                                    <li>Interact. design mockup creation</li>
+                                    <li>HTML/SCSS mockup creation</li>
+                                </ul>
+                            </div>
+                            <div class="column-2">
+                                <h3>DELIVERABLES</h3>
+                                <ul>
+                                    <li>Workflow diagrams</li>
+                                    <li>Visual design mockups</li>
+                                    <li>HTML/SCSS mockups</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="sub-step">
+                            <h2>Workflow Diagramming</h2>
+                            <p>I created these workflows to express the user flow—and the flow of a request—for each of the user roles. You’ll find that I combined the roles of non-faculty patrons, and faculty patrons into the same diagram.</p>
+                            <div class="caption-image">
+                                <h4>MATERIAL AQUISITIONS STAFF WORKFLOW DIAGRAM</h4>
+                                <img class="main" src="img/sos-flow-staff.png" alt="student workflow">
+                                <a class="expand-icon bounce-up" href="http://www.bencrabtree.co/img/sos-flow-staff-large.png">
+                                    <img src="img/icon-expand.svg" alt="expand icon">
+                                </a>
+                            </div>
+                            <div class="caption-image">
+                                <h4>LIBRARIAN WORKFLOW DIAGRAM</h4>
+                                <img class="main" src="img/sos-flow-librarian.png" alt="librarian workflow">
+                                <a class="expand-icon bounce-up" href="http://www.bencrabtree.co/img/sos-flow-librarian-large.png">
+                                    <img src="img/icon-expand.svg" alt="expand icon">
+                                </a>
+                            </div>
+                            <div class="caption-image">
+                                <h4>REQUESTER WORKFLOW DIAGRAM</h4>
+                                <img class="main" src="img/sos-flow-requester.png" alt="student workflow">
+                                <a class="expand-icon bounce-up" href="http://www.bencrabtree.co/img/sos-flow-requester-large.png">
+                                    <img src="img/icon-expand.svg" alt="expand icon">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="sub-step">
+                            <h2>Wireframing / Prototyping</h2>
+                            <p>Once I had created and validated the user flows, I began iterating design solutions.</p>
+                            <div class="main-block aware-or-mistake">
+                                <h3 class="mistake"></span>OWNING A MISTAKE</h3>
+                                <p>I didn’t take pictures of my wireframe sketches—all of which I did on a whiteboard.</p>
+                                <p>Since I began both this project—and the Instruction Scheduler project around the same time, I made this same mistake for both projects.</p>
+                            </div>
+                            <div class="main-block aware-or-mistake">
+                                <h3 class="mistake"></span>OWNING ANOTHER MISTAKE</h3>
+                                <p>I skipped doing wireframes and went straight to high fidelity mockups.</p>
+                                <p>That means I don’t have wireframes to show for this project, but I do have a few screen shots from the initial iterations that I tested. (See first screen of the high fidelity mockup section)</p>
+                            </div>
+                        </div>
+
+                        <div class="sub-step">
+                            <h2>High Fidelity Mockups / Prototyping</h2>
+                            <p>I created and tested iterations of the high fidelity mockups using Sketch and InVision.</p>
+                            <div class="caption-image">
+                                <h4>MATERIAL AQUISITIONS STAFF HIGH FIDELITY (INITIAL ITERATION)</h4>
+                                <img class="main" src="img/sos-hf-staff-1.png" alt="staff high fidelity mockups">
+                                <a class="expand-icon bounce-up" href="http://www.bencrabtree.co/img/sos-hf-staff-1.png">
+                                    <img src="img/icon-expand.svg" alt="expand icon">
+                                </a>
+                            </div>
+                            <div class="caption-image">
+                                <h4>MATERIAL AQUISITIONS STAFF HIGH FIDELITY (FINAL)</h4>
+                                <img class="main" src="img/sos-hf-staff.png" alt="staff high fidelity mockups">
+                                <a class="expand-icon bounce-up" href="http://www.bencrabtree.co/sos-staff-hifi.pdf">
+                                    <img src="img/icon-expand.svg" alt="expand icon">
+                                </a>
+                            </div>
+                            <div class="caption-image">
+                                <h4>LIBRARIAN HIGH FIDELITY (FINAL)</h4>
+                                <img class="main" src="img/sos-hf-librarian.png" alt="librarian high fidelity mockups">
+                                <a class="expand-icon bounce-up" href="http://www.bencrabtree.co/img/sos-hf-librarian.png">
+                                    <img src="img/icon-expand.svg" alt="expand icon">
+                                </a>
+                            </div>
+                            <div class="caption-image">
+                                <h4>EXISTING ORDER/SUGGESTION SUBMISSION FORMS (NOT DESIGNED BY ME, BUT GIVEN FOR CONTEXT)</h4>
+                                <img class="main" src="img/sos-forms.png" alt="forms">
+                                <a class="expand-icon bounce-up" href="http://www.bencrabtree.co/sos-forms.pdf">
+                                    <img src="img/icon-expand.svg" alt="expand icon">
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="usability-testing">
+                            <div class="test-line"></div>
+                            <div><span></span>Usability Testing</div>
+                        </div>
+
+                        <div class="sub-step">
+                            <h2>HTML + SCSS / Prototyping</h2>
+                            <p>At this point I began building what I had designed in HTML and SCSS, and met with developers regularly throughout the project to talk about how the backend would need to be architected in order to support the functionality of the front-end.</p>
+                            <p>Unfortunately I haven't yet been able to access the staging server to provide a video of the dashboard. I'll add that as soon as I can. (As of Spring 2018)</p>
+                            <!-- <a class="video-demo right-bounce" target="_blank" href="https://www.youtube.com/playlist?list=PLuLptY981VGp7RGidZ7wO0F6rfz6js6mx">View Demo Video<img src="img/arrow-right-teal.svg" alt="right facing arrow"></a> -->
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <h2 class="step-up"><span class="number">3</span>Ship + Support</h2>
+                        <p>This app has yet to ship, and has not yet been given an official release date. (As of Spring 2018) However, I've made myself available to help both front-end and back-end developers as they have implemented my designs up to this point.</p>
+                        <div class="two-column">
+                            <div class="column-1">
+                                <h3>ACTIVITIES</h3>
+                                <ul>
+                                    <li>Design to development hand off</li>
+                                    <li>Design implementation support</li>
+                                    <li>Feedback follow-up</li>
+                                </ul>
+                            </div>
+                            <div class="column-2">
+                                <h3>DELIVERABLES</h3>
+                                <ul>
+                                    <li>Hand-off follow-up</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main-block success">
+                        <h1>The Outcome</h1>
+                        <p>Since the system hasn’t yet been launched, the outcome of this system’s impact on each of the user roles is still unknown. (As of Spring 2018)</p>
+                    </div>
+
+                    <div class="main-block learned">
+                        <h1>Lessons Learned (So far)</h1>
+                        <ul>
+                            <li>Don’t skip steps in the process.</li>
+                            <li>Seek to learn—not to teach—when gathering feedback.</li>
+                            <li>Using a sketchbook to document wireframes is better than whiteboarding only.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="wrapper">
+                <img src="img/contact.png" alt="contact backgroung image" class="slice">
+                <h1>Contact</h1>
+                <p>Ask me questions, reach out about a potential job or project, or just say hi.</p>
+                <ul>
+                    <a href="mailto: ben.cr@btree.us" class="up-bounce"><li><img src="img/icon-email.svg" alt="email icon"></li></a>
+                    <!-- <a href="https://dribbble.com/_bctree" class="up-bounce"><li><img src="img/icon-dribble.svg" alt="dribble icon"></li></a> -->
+                    <a href="https://www.linkedin.com/in/ben-crabtree-582b0180/" class="up-bounce"><li><img src="img/icon-li.svg" alt="linkedin icon"></li></a>
+                </ul>
+                <p>Also, If you haven’t already, check out the <a href="https://www.producthive.org/">Product Hive</a>—an awesome community of UX designers and Product Managers in Utah—and <a href="https://uxtools.co/">uxtools.co</a>—a collection of UX tools compiled by <a href="https://twitter.com/_taylorpalmer?lang=en">@taylor</a>.</p>
+                <div class="buttons">
+                    <a class="button up-bounce back-to-top" href=""><img src="img/arrow-up.svg" alt="downward facing arrow">Back to Top</a>
+                    <a class="button left-bounce" href="http://www.bencrabtree.co/index.html#project-anchor"><img src="img/arrow-left-white.svg" alt="left facing arrow">Back to All Projects</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
