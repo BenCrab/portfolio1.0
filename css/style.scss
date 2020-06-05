@@ -517,7 +517,7 @@ header.project-head {
                     font-weight: 300;
                     line-height: 3.5rem;
 
-                    .total {
+                    &.total {
                         padding: 3rem 0;
                     }
 
@@ -535,39 +535,44 @@ header.project-head {
         &.success {
 
             h4 {
-                padding-top: 2rem;
+                padding-top: 3rem;
             }
 
             .stat-block {
-                h3 {
-                    padding-top: 1rem;
-                }
+                margin-bottom: 1rem;
+            }
 
-                ol {
-                    padding-top: 1rem;
-                    margin-left: 3rem;
+            h3 {
+                padding-top: 1rem;
+            }
 
-                    li {
-                        font-size: 2.5rem;
-                        font-weight: 300;
-                        line-height: 3.5rem;
+            ol {
+                padding-top: 1rem;
+                margin-left: 3rem;
 
-                        span {
-                            font-weight: 600;
-                        }
+                li {
+                    font-size: 2.5rem;
+                    font-weight: 300;
+                    line-height: 3.5rem;
 
-                    }
-                }
-
-                ul {
-                    padding-top: 1rem;
-                    li {
-                        font-size: 2.5rem;
-                        font-weight: 300;
-                        line-height: 3.5rem;
+                    span {
+                        font-weight: 600;
                     }
                 }
             }
+
+            ul {
+                padding-top: 1rem;
+                list-style: disc;
+                padding-left: 3rem;
+
+                li {
+                    font-size: 2.5rem;
+                    font-weight: 300;
+                    line-height: 3.5rem;
+                }
+            }
+
         }
 
         &.learned {
