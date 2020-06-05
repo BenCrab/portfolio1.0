@@ -580,22 +580,25 @@ header.project-head .two-column h3 {
 .project-body .main-block.success h4 {
   padding-top: 2rem;
 }
-.project-body .main-block.success ol {
+.project-body .main-block.success .stat-block h3 {
+  padding-top: 1rem;
+}
+.project-body .main-block.success .stat-block ol {
   padding-top: 1rem;
   margin-left: 3rem;
 }
-.project-body .main-block.success ol li {
+.project-body .main-block.success .stat-block ol li {
   font-size: 2.5rem;
   font-weight: 300;
   line-height: 3.5rem;
 }
-.project-body .main-block.success ol li span {
+.project-body .main-block.success .stat-block ol li span {
   font-weight: 600;
 }
-.project-body .main-block.success ul {
+.project-body .main-block.success .stat-block ul {
   padding-top: 1rem;
 }
-.project-body .main-block.success ul li {
+.project-body .main-block.success .stat-block ul li {
   font-size: 2.5rem;
   font-weight: 300;
   line-height: 3.5rem;

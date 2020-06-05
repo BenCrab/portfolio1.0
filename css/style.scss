@@ -538,28 +538,34 @@ header.project-head {
                 padding-top: 2rem;
             }
 
-            ol {
-                padding-top: 1rem;
-                margin-left: 3rem;
-
-                li {
-                    font-size: 2.5rem;
-                    font-weight: 300;
-                    line-height: 3.5rem;
-
-                    span {
-                        font-weight: 600;
-                    }
-
+            .stat-block {
+                h3 {
+                    padding-top: 1rem;
                 }
-            }
 
-            ul {
-                padding-top: 1rem;
-                li {
-                    font-size: 2.5rem;
-                    font-weight: 300;
-                    line-height: 3.5rem;
+                ol {
+                    padding-top: 1rem;
+                    margin-left: 3rem;
+
+                    li {
+                        font-size: 2.5rem;
+                        font-weight: 300;
+                        line-height: 3.5rem;
+
+                        span {
+                            font-weight: 600;
+                        }
+
+                    }
+                }
+
+                ul {
+                    padding-top: 1rem;
+                    li {
+                        font-size: 2.5rem;
+                        font-weight: 300;
+                        line-height: 3.5rem;
+                    }
                 }
             }
         }
