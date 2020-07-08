@@ -607,6 +607,12 @@ header.project-head {
             .sub-step {
                 padding-top: 8rem;
 
+                &.audience {
+                    span {
+                        font-weight: bold;
+                    }
+                }
+
                 h4:not(.sc) {
                     padding-top: 4rem;
                 }

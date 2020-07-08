@@ -628,6 +628,9 @@ header.project-head .two-column h3 {
 .process .project-steps .step .sub-step {
   padding-top: 8rem;
 }
+.process .project-steps .step .sub-step.audience span {
+  font-weight: bold;
+}
 .process .project-steps .step .sub-step h4:not(.sc) {
   padding-top: 4rem;
 }
